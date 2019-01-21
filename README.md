@@ -1,1 +1,1 @@
-# Hello maven plugin
+# Git maven plugin
