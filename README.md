@@ -1,6 +1,9 @@
 # Git maven plugin
 
-##### Example to use the plugin
+### Description
+Maven Plugin used to get git branch name of repository, check if match given regexp and build the suffix of the fat JAR
+
+### Example to use the plugin
 
 ```
 <plugin>
