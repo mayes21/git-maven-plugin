@@ -23,6 +23,7 @@
       <scope>provided</scope>
     </dependency>
 
+    <!-- jgit dependency -->
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit</artifactId>
@@ -39,6 +40,7 @@
 
   <build>
     <plugins>
+      <!-- to avoid the error : Execution default-descriptor of goal org.apache.maven.plugins:maven-plugin-plugin:3.2:descriptor failed -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
