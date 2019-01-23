@@ -3,10 +3,19 @@
 
   <groupId>com.github.amabb</groupId>
   <artifactId>git-maven-plugin</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>maven-plugin</packaging>
 
   <name>GIT Maven plugin</name>
+
+  <developers>
+    <developer>
+      <email>amayas.abboute@live.fr</email>
+      <name>Amayas ABBOUTE</name>
+      <url>https://github.com/mayes21</url>
+      <id>mayes21</id>
+    </developer>
+  </developers>
 
   <dependencies>
     <dependency>
